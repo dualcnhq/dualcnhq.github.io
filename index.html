@@ -1,95 +1,309 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+   <title>dualcnhq | Personal Portfolio</title>
+   <meta name="description" content="portfolio">
+   <meta name="author" content="dualcnhq">
 
-    <title>Profile - dualcnhq</title>
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
 
-    <!-- Custom CSS -->
-    <link href="css/grayscale.css" rel="stylesheet">
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
 
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
 
 </head>
 
 <body>
 
-    <!-- Intro Header -->
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Hello, I'm Clau!</h1>
-                        <p class="intro-text">A frustrated artist (someone who draws things, etc.)<br/>a mobile and web developer (aspiring game developer)<br/>a musician...</p>
-                        <a href="#contact" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
-                    </div>
-                </div>
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Skills</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Works</a></li>
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">I'm Clau Yagyagan.</h1>
+            <h3>I'm a Manila based <span>mobile</span> and <span>web</span> developer who loves building and learning cool stuff for mobile and web.<br/>I'm also a frustrated artist (someone who draws and paints), <br/>a musician, and an aspiring doctor.<br/>Let's <a class="smoothscroll" href="#about">start scrolling</a>
+            and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
+            <hr />
+            <ul class="social">
+               <li><a href="https://www.facebook.com/dualcnhq"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="https://twitter.com/dualcnhq"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="https://plus.google.com/+ClauYagyagan"><i class="fa fa-google-plus"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/clauyagyagan"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/clau.jpg" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>I'm a self-taught developer.<br/>
+            I first fell in love with computers in sixth grade when my dad brought home a PC running a Pentium II processor and I started to play PC games. During my high school days, I learned Photoshop 6.0 and HTML. The movie titled “So Close” inspired me to take Computer Science in college.<br/>During my last semester in college, our thesis professor suggested we work on an Android project. My thesis partner and I decided to develop an Android role-playing game based on our favorite anime,  Detective Conan but the player will be investigating the main character's father's disappearance bumping into a murder case to a secret Mafia organization where the character's father was also involved.<br/>After graduating college, I started my career in Android development, then I learned web development later on.<br/><br/>When not at work, I hone my skills in playing musical instruments and enjoys listening to classical and jazz music; I dream to own a music studio.
+            </p>
+
+            <div class="row">
+
+               <div class="columns download">
+                  <p>
+                     <a href="http://bit.ly/29LHqt5" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Skills
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>Skills</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <p></p>
+
+				<div class="bars">
+
+				   <ul class="skills">
+                  <li><span class="bar-expand android"></span><em>Android development</em></li>
+                  <li><span class="bar-expand api-devt"></span><em>API development</em></li>
+                  <li><span class="bar-expand python"></span><em>Python</em></li>
+                  <li><span class="bar-expand javascript"></span><em>JavaScript</em></li>
+                  <li><span class="bar-expand html5"></span><em>HTML5</em></li>
+                  <li><span class="bar-expand css"></span><em>CSS</em></li>
+					</ul>
+
+				</div><!-- end skill-bars -->
+
+			</div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+   </section> <!-- Resume Section End-->
+
+
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>Check out some of my works and personal projects</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-01" title="">
+                        <img alt="" src="images/portfolio/rakon-logo.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>RAK.on</h5>
+                              <p>Web Development</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-02" title="">
+                        <img alt="" src="images/portfolio/dlock.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>DLock</h5>
+                              <p>Android development</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/rakon-logo.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>RAK.on</h4>
+			      <p>An entry for WebGeek DevCup 2014, developed by an all girls team that lets people share their random acts of kindness experiences. I helped to design the database structure to be used and integrated frontend and backend part of the web app developed using the following technologies: Python, Django, HTML, CSS, JavaScript, Django Rest Framework, Git, Digital Ocean, Nginx, Gunicorn</p>
+               <span class="categories"><i class="fa fa-tag"></i>Web Development</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://wg.codemickeycode.com">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-        </div>
-    </header>
 
-    <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Me</h2>
-                <p><a href="mailto:dualcnhq@gmail.com">dualcnhq@gmail.com</a>
-                </p>
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://twitter.com/dualcnhq" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/dualcnhq" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li>
-                        <a href="https://plus.google.com/u/0/+ClauYagyagan" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
-                    </li>
-                </ul>
+	      </div><!-- modal-01 End -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/dlock.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>DLock</h4>
+			      <p>A winning entry for Safe Cities Hackathon, an Android app that was inspired from BBC TV Series Sherlock Season 2 Episode 1 (The Scandal in Belgravia) . I t acts like a lock screen with 3 easy oneclick buttons to text and call your primary contact, and make a siren/loud noise to call for help. It also have other helpful features for locating and contacting local hospitals, fire stations and police stations near you, and a bulletin where users can post and share information with other users near them.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Android App Development</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://github.com/dualcnhq/DLock">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-        </div>
-    </section>
+
+	      </div><!-- modal-02 End -->
+
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+
+   <!-- Contact Section
+   ================================================== -->
+   <section id="contact">
+
+         <div class="row section-head">
+
+            <div class="two columns header-col">
+
+               <h1><span>Get In Touch.</span></h1>
+
+            </div>
+
+            <div class="ten columns">
+
+                  <p class="lead">Reach me at <span>dualcnhq @ gmail.com</span>
+                  </p>
+
+            </div>
+
+         </div>
+
+   </section> <!-- Contact Section End-->
 
 
-    <!-- Footer -->
-    <footer>
-        <div class="container text-center"></div>
-    </footer>
+   <!-- footer
+   ================================================== -->
+   <footer>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+      <div class="row">
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+         <div class="twelve columns">
 
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
+            <ul class="social-links">
+               <li><a href="https://www.facebook.com/dualcnhq"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="https://twitter.com/dualcnhq"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="https://plus.google.com/+ClauYagyagan"><i class="fa fa-google-plus"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/clauyagyagan"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
 
-    <!-- Custom Theme JavaScript -->
-    <script src="js/grayscale.js"></script>
+            <ul class="copyright">
+               <li>&copy; Copyright 2016 dualcnhq</li>
+               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
+            </ul>
 
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
 
 </body>
 
